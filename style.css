@@ -83,6 +83,7 @@ ul{
 width: 100vw;
 height: 100%;
 background: #ff5159;
+margin-bottom: 30px;
 }
 .timeline {
     margin: 0 auto;
@@ -262,3 +263,56 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff5159;
+    margin-top: 0px;
+}
+nav a{
+    border-right: 0.5px solid #ccc;
+    font-size: 23px;
+    color: white;
+    text-align: center;
+}
+#lh{
+    border-right: none;
+}
+#contact{
+    width: 400px;
+    height: 100%;
+    padding:10px;
+    background: #ff5159;
+    margin:auto;
+    color: white;
+    border-radius: 10%
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-top: 20px;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
